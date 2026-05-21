@@ -9,7 +9,7 @@ usuarios = []
 # Endpoint inicia
 # Quando acessar
 @app.route("/")
-def inicio():
+def inicio(): # def -> Seria uma função | GET - > Ler dados
     
     return "API funcionando"
 
